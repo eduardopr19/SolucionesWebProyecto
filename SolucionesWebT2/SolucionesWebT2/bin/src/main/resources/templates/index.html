@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head th:replace="layouts/fragmentos :: head"></head>
+<body class="sb-nav-fixed">
+	<header th:replace="layouts/fragmentos :: header"></header>
+	<div id="layoutSidenav">
+		<div th:replace="layouts/fragmentos :: menu"></div>
+		<div id="layoutSidenav_content">
+		<!--  Aqui inicia contenido -->
+		
+		<!--  Aqui finaliza contenido -->
+
+			<footer th:replace="layouts/fragmentos :: footer"></footer>
+		</div>
+	</div>
+
+	<script th:replace="layouts/fragmentos :: script"></script>
+
+
+</body>
+</html>
